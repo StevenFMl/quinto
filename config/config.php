@@ -5,8 +5,8 @@ class ClaseConexion{
     protected $db;
     private $host = "localhost"; //TODO: Variable del servidor
     private $usuario = "root";//TODO: Variable del usuario
-    private $password = 'root';//TODO: Variable del pwd
-    private $base = 'quinto';//TODO: Variable del base de datos
+    private $password = '';//TODO: Variable del pwd
+    private $base = 'jardineria';//TODO: Variable del base de datos
 
 //TODO: Procedimiento para conectar a la base de datos
     public function ProcedimientoConectar(){
